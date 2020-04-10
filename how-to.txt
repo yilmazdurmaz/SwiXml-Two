@@ -1,0 +1,20 @@
+# MAIN FILE
+ build package
+  (currently 1 warning)
+ cd samples
+ javac -cp ..\build\* Accelerator.java -d .
+ java -cp ..\build\*;. Accelerator
+
+
+# SAMPLES
+ build samples 
+  (currently 2 warnings)
+ java -cp .\build\*;.\build\samples\ Accelerator
+
+# DOCUMENTATION
+ build javadoc
+  (currently 61 errors and 62 warnings)
+
+# DISTRIBUTION
+ build distribution
+  (currently fails to finish)
